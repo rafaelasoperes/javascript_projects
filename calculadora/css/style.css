@@ -1,44 +1,46 @@
 body {
-    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto Slab', serif;
     background: #937DC2;
 }
 
 .container_principal {
-    width: 90%;
-    margin: 5%;
+    width: 80%;
+    margin: 10%;
     display: flex;
     justify-content: center;
     align-content: center;
-    border: 2px solid #000000;
-    border-radius: 10px;
-    background: #DAD2D8;
+    
 }
 
 .container_inicial {
-    width: 50%;
-    border-right: 2px solid #000000;
+    background: #000000;
+    width: 45%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
     padding: 5%;
+    color: #fefefe
 }
 
-.titulo {
+.titulo { 
+    background: #C689C6;
     margin: 20px;
-    padding: 10px 0;
+    padding: 10px ;
     text-align: center;
     font-size: 50px;
-    border: 2px solid black;
-    border-radius: 10px 20px 30px 20px;
+    border: 2px groove #ffffff;
+    border-radius: 30px;
 }
 
 .texto {
     text-align: center;
-    font-size: 25px;
+    font-size: 35px;
     padding: 20px;
 }
 
 .footer {
     margin: 20px;
     text-align: center;
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
 
 }
@@ -50,7 +52,7 @@ body {
 a {
     text-decoration: none;
     margin: 5px 10px;
-    color: black;
+    color: #ffffff;
 }
 
 a:hover {
@@ -60,9 +62,11 @@ a:hover {
 }
 
 .container_calculadora {
-    width: 50%;
-    border-left: 2px solid #000000;
+    width: 45%;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
     padding: 5%;
+    background: #000000;
     
 }
 
@@ -72,44 +76,51 @@ a:hover {
     padding: 15px; 
     width: 50%;
     max-height: 460px;
-    border: 2px solid #000000;
+    border: 2px solid #ffffff;
     border-radius: 20px;
     text-align: center;
 
     
 }
 
-.resultado {
-    margin: 20px 0;
-    width: 60%;
-    padding: 20px;
+#resultado {
+    margin: 20px auto;
+    width: 80%;
+    height: 60px;
+    
     border-radius: 10px;
+    background: #ffffff;
+    color: black;
+    font-size: 25px;
+    text-align: right;
+}
+
+.conjunto_botoes {
+
+    margin: auto;
+    width: 80%;
+
 }
 
 .botoes {
-    margin: auto;
-}
-
-button {
     background: #FFE6F7;
     margin: 5px;
-    width: 80px;
+    width: 80%;
     height: 60px;
     padding: 10px;
     border-radius: 10px;
     font-size: 25px;
-    
-    
 
 }
 
-button:hover {
+.botoes:hover {
     background: #FFABE1;
     transition: 1s;
-    font-size: 28px;
+    /* font-size: 28px; */
 }
 
 #igual {
+    
     background: #937DC2;
     color: #ffffff;
     font-size: 30px;
@@ -119,9 +130,14 @@ button:hover {
 
 #igual:hover {
     background: #8a2be2;
+    
 }
 #zero {
-    width: 170px;
+    width: 90%;
 }
+
+
+
+
 
 
