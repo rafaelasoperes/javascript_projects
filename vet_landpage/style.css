@@ -1,0 +1,32 @@
+body {
+    background: rgba(252, 226, 219, 0.6);
+}
+
+header {
+    background: rgb(252, 226, 219);
+}
+.caixa {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    padding: 50px
+}
+
+.logo {
+    width: 50%;
+    margin: auto;
+}
+
+nav {
+    width: 50%;
+    margin: auto;
+}
+
+nav a {
+    
+    margin-left: 20px;
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+
+}
